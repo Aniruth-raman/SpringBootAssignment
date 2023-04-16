@@ -19,7 +19,7 @@
       <jsp:include page="header.jsp" />
       <!--  http://localhost:8080/SpringMVCDemo/greet  -->
       <div class="container">
-        <h1>Welcome ${sessionScope.email }</h1>
+        <h1>Welcome ${sessionScope.username }</h1>
       </div>
       <div class="container">
         <jsp:include page="booksList.jsp" />
